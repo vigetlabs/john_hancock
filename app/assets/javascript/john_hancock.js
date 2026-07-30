@@ -1,4 +1,4 @@
-import SignaturePad from './signature_pad.js';
+import SignaturePad from 'signature_pad';
 
 function initializeJohnHancock() {
   const canvas = document.getElementById('JohnHancock-canvas');
