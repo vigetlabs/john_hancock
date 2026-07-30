@@ -503,3 +503,7 @@ SignaturePad.prototype.fromData = function (pointGroups) {
 SignaturePad.prototype.toData = function () {
   return this._data;
 };
+
+// Export for ES modules
+window.SignaturePad = SignaturePad;
+export default SignaturePad;

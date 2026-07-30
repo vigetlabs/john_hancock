@@ -1,4 +1,4 @@
-//= require signature_pad
+import SignaturePad from './signature_pad.js';
 
 function initializeJohnHancock() {
   const canvas = document.getElementById('JohnHancock-canvas');
